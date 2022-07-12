@@ -2,7 +2,7 @@ val http4sVersion = "0.23.12"
 val circeVersion = "0.14.2"
 
 val snowplowTask = project.settings(
-  scalaVersion := "3.1.2",
+  scalaVersion := "3.1.3",
   fork := true,
   libraryDependencies ++= Seq(
     "org.tpolecat" %% "doobie-h2-circe" % "1.0.0-RC2",
