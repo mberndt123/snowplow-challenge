@@ -6,4 +6,4 @@ It is a simple REST service based on [http4s](https://http4s.org/) and [H2](http
 
 The `main` method requires a single parameter: a path to the file where the H2 database will be stored, e. g. `./test`. If this file doesn't exist, the program will initialize it.
 
-To run the project, open a terminal in the project repository and type `sbt 'snowplowTask/run ./test'` ([sbt](https://www.scala-sbt.org/) must be installed).
+To run the project, open a terminal in the project repository and type `sbt 'snowplowTask/run ./test'` ([sbt](https://www.scala-sbt.org/) must be installed). The server runs on port 8080.
