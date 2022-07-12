@@ -94,7 +94,7 @@ class ValidatorServiceTest extends CatsEffectSuite:
           case ValidationResult.InvalidDocument(_) => true
           case _                                   => false
       }
-      .assertEquals(true)
+      .assert
   }
 
   test("detect invalid schema or other processing errors") {
@@ -108,5 +108,5 @@ class ValidatorServiceTest extends CatsEffectSuite:
           case ValidationResult.JsonProcessorError(_) => true
           case _                                      => false
       }
-      .assertEquals(true)
+      .assert
   }
